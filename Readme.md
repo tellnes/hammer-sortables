@@ -1,0 +1,36 @@
+# hammer-sortable
+
+This is an extension for [Hammer.js](http://eightmedia.github.io/hammer.js/)
+which implements sortable lists.
+
+It depens on [hammer-dragables](https://github.com/tellnes/hammer-dragables).
+
+## Usage
+
+```js
+var options =
+  { handle: '.move'
+  , draggable: 'li'
+  , axis: 'y'
+  }
+
+var sortable = new Sortable($('ul'), options)
+sortable.on('start', function (event, dragging) {
+  dragging.element.classList.add('dragging')
+})
+sortable.on('end', function (event, dragging) {
+  dragging.element.classList.remove('dragging')
+})
+sortable.on('change', function (dragging, moved) {
+  // position changed
+})
+
+```
+
+## Install
+
+    $ npm install hammer-sortable
+
+## License
+
+MIT

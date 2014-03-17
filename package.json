@@ -1,0 +1,30 @@
+{
+  "name": "hammer-sortable",
+  "version": "0.0.0",
+  "description": "Sortable extension for Hammer.js",
+  "main": "index.js",
+  "dependencies": {
+    "hammer-dragables": "~0.0.0",
+    "inherits": "~2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "keywords": [
+    "hammer",
+    "hammerjs",
+    "dragables",
+    "sortables",
+    "sort",
+    "drag"
+  ],
+  "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tellnes/hammer-sortables.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tellnes/hammer-sortables/issues"
+  },
+  "homepage": "https://github.com/tellnes/hammer-sortables"
+}
