@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/tellnes/hammer-sortables/issues"
   },
-  "homepage": "https://github.com/tellnes/hammer-sortables"
+  "homepage": "https://github.com/tellnes/hammer-sortables",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
