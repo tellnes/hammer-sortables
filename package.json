@@ -1,6 +1,6 @@
 {
   "name": "hammer-sortable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sortable extension for Hammer.js",
   "main": "index.js",
   "dependencies": {
