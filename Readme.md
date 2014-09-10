@@ -3,7 +3,7 @@
 This is an extension for [Hammer.js](http://eightmedia.github.io/hammer.js/)
 which implements sortable lists.
 
-It depens on [hammer-dragables](https://github.com/tellnes/hammer-dragables).
+It depends on [hammer-dragables](https://github.com/tellnes/hammer-dragables).
 
 ## Usage
 
@@ -30,6 +30,8 @@ sortable.on('change', function (dragging, moved) {
 ## Install
 
     $ npm install hammer-sortable
+
+    $ bower install https://github.com/tellnes/hammer-sortables.git
 
 ## License
 
