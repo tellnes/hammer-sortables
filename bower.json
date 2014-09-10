@@ -1,0 +1,7 @@
+{
+  "name": "hammer-sortables",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Extension for Hammer.js which implements sortable lists.",
+  "license": "MIT"
+}
