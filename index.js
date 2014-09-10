@@ -1,14 +1,14 @@
 var inherits = require('inherits')
-  , Dragables = require('hammer-dragables')
+  , Draggables = require('hammer-draggables')
 
 module.exports = Sortable
 
 function Sortable(obj, options) {
-  Dragables.call(this, obj, options)
+  Draggables.call(this, obj, options)
   this.revert = true
   this.axis = options.axis || 'y'
 }
-inherits(Sortable, Dragables)
+inherits(Sortable, Draggables)
 
 function rectOverlapsX(elmRect, sblRect) {
   var over
@@ -43,7 +43,7 @@ function rectOverlapsY(elmRect, sblRect) {
 }
 
 Sortable.prototype.move = function (event) {
-  Dragables.prototype.move.call(this, event)
+  Draggables.prototype.move.call(this, event)
   if (!this.dragging) return
 
   var self = this

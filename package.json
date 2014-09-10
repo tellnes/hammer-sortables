@@ -4,7 +4,7 @@
   "description": "Sortable extension for Hammer.js",
   "main": "index.js",
   "dependencies": {
-    "hammer-dragables": "~0.0.0",
+    "hammer-draggables": "~0.0.2",
     "inherits": "~2.0.1"
   },
   "devDependencies": {},
@@ -12,7 +12,7 @@
   "keywords": [
     "hammer",
     "hammerjs",
-    "dragables",
+    "draggables",
     "sortables",
     "sort",
     "drag"

@@ -3,7 +3,7 @@
 This is an extension for [Hammer.js](http://eightmedia.github.io/hammer.js/)
 which implements sortable lists.
 
-It depends on [hammer-dragables](https://github.com/tellnes/hammer-dragables).
+It depends on [hammer-draggables](https://github.com/tellnes/hammer-draggables).
 
 ## Usage
 
